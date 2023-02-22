@@ -10,6 +10,7 @@ def gradientDescentFunction(data, iterations, learningRate):
 
 # Question a)
 print("Question a: Please check the code above \n")
+print(">> Please check the codes", "\n\n")
 
 # Question b)
 print("Question b:  Generate some random data, and estimate b using gradient descent algorithm\n")
