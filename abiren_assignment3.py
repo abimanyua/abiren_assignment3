@@ -28,7 +28,8 @@ data = [X[i] + [Y[i]] for i in range(n)]
 # print(Y)
 # print(Y[9])
 
-#
+iterations = 1000
+learningRate = 0.0001
 
-result = gradientDescentFunction(X, 100, 0.0001)
+result = gradientDescentFunction(data, iterations, learningRate)
 print(result)
